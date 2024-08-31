@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A3")
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -190,7 +190,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "00c96e46-8e1d-4875-8856-1478aefa2845")
-		(at 236.9 50.35)
+		(at 269.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S11"
@@ -524,7 +524,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "06390162-eba5-49ab-8a61-e52f1dcc49c8")
-		(at 32.4 50.35)
+		(at 64.8 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S1"
@@ -858,7 +858,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "0aefd059-004d-449b-b7da-7301610a12d5")
-		(at 116.9 69.35)
+		(at 149.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S19"
@@ -1192,7 +1192,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "0bd490fd-92d1-47bd-a189-16a40e0d40c9")
-		(at 116.9 88.35)
+		(at 149.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S33"
@@ -1526,7 +1526,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "0e9a8d92-7021-4d5a-a0f3-e82d4ee76a96")
-		(at 56.9 88.35)
+		(at 89.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S30"
@@ -1860,7 +1860,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "1e4d60c8-42f0-40cd-9f22-71aea6145a47")
-		(at 236.9 69.35)
+		(at 269.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S25"
@@ -2191,10 +2191,233 @@
 			)
 		)
 	)
+	(footprint "ScottoKeebs_Components:OLED_128x32"
+		(layer "F.Cu")
+		(uuid "1f015b41-892b-46d8-ad09-783e8b34db47")
+		(at 227.7 71.95)
+		(property "Reference" "J3"
+			(at 7.75 10 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b7f36929-bf12-45ce-ab69-6e3b67724a2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OLED_128x32"
+			(at 5.75 5.75 0)
+			(layer "F.Fab")
+			(uuid "51b9934e-e5a5-483c-b45f-b1af7d4d2e37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:OLED_128x32"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbd04685-0089-4b72-96cf-7f423fc7ae97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58bfdec7-6779-4160-b6c4-8acda7d90a87")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78b6aa6e-ffd9-4947-87bc-098717617551")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/eba28c9d-5839-4d51-8253-49f48b9188c7")
+		(sheetname "Root")
+		(sheetfile "Quantum Board.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
+		(fp_line
+			(start 0 0)
+			(end 0 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "2957fe7a-6c46-4b29-bed6-10a006aab55e")
+		)
+		(fp_line
+			(start 0 0)
+			(end 38 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "ba78e08b-b339-468c-932b-a6eea29643d2")
+		)
+		(fp_line
+			(start 5.75 0)
+			(end 5.75 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "f7e86ccf-6dde-4846-aa93-d49821e70998")
+		)
+		(fp_line
+			(start 7.06 2.22)
+			(end 7.06 7.74)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "b8b6dc4d-aac2-481a-bd22-fc5efbc84594")
+		)
+		(fp_line
+			(start 7.06 2.22)
+			(end 29.44 2.22)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "347fc1cb-7bec-4c64-be0c-9485b784f841")
+		)
+		(fp_line
+			(start 7.06 7.74)
+			(end 29.44 7.74)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "89733500-827a-4bdc-bb49-d8d7c2921597")
+		)
+		(fp_line
+			(start 29.44 7.74)
+			(end 29.44 2.22)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "03bcf2a2-157b-4ca2-96d6-db81839ea513")
+		)
+		(fp_line
+			(start 35.75 0)
+			(end 35.75 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3250d10a-2ba4-48ce-bca5-6f2919aea931")
+		)
+		(fp_line
+			(start 38 0)
+			(end 38 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "acef396d-8535-4d7d-b82e-4749316c1b5b")
+		)
+		(fp_line
+			(start 38 12)
+			(end 0 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "eb23eee4-862c-46aa-bb9d-6c4da04bb41b")
+		)
+		(pad "1" thru_hole rect
+			(at 1.6 9.8 180)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 72 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "74305092-dd7d-4a8a-9b49-549c431a0052")
+		)
+		(pad "2" thru_hole oval
+			(at 1.6 7.26 180)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 73 "+5V")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(uuid "506934ed-a099-4712-a6d1-308b43c0ef2f")
+		)
+		(pad "3" thru_hole oval
+			(at 1.6 4.72 180)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 70 "SCL")
+			(pinfunction "SCL")
+			(pintype "input")
+			(uuid "77745c72-8f90-43e9-8b28-07c94d8247a0")
+		)
+		(pad "4" thru_hole oval
+			(at 1.6 2.18 180)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 71 "SDA")
+			(pinfunction "SDA")
+			(pintype "bidirectional")
+			(uuid "b656bda7-b114-4549-bf05-c1b18f64f65c")
+		)
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/OLED_128x32.step"
+			(offset
+				(xyz 19 -6 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "1fc42903-1176-468f-933f-40a1fad55f0c")
-		(at 156.9 50.35)
+		(at 189.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S7"
@@ -2528,7 +2751,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "212d2937-1496-49aa-a208-bdc50740adca")
-		(at 76.9 88.35)
+		(at 109.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S31"
@@ -2862,7 +3085,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "21711a3c-b5c8-4a98-a030-ff3e6bf7ea2d")
-		(at 116.9 107.35)
+		(at 149.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S47"
@@ -3196,7 +3419,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "2243b254-34e0-45b8-925f-caa79b999d21")
-		(at 176.9 88.35)
+		(at 209.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S36"
@@ -3530,7 +3753,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "243c4632-c4bd-4551-9b98-bf5ab834daf6")
-		(at 256.9 88.35)
+		(at 289.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S40"
@@ -3864,7 +4087,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "2b8232c9-cf90-4b1e-aa37-3b05d8de53d7")
-		(at 96.9 107.35)
+		(at 129.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S46"
@@ -4198,7 +4421,7 @@
 	(footprint "ScottoKeebs_Components:OLED_128x32"
 		(layer "F.Cu")
 		(uuid "2c36c77c-1a59-4e85-b7db-20e1c9678dfa")
-		(at 231.05 20.19)
+		(at 184.7 71.95)
 		(property "Reference" "J1"
 			(at 7.75 10 0)
 			(layer "F.SilkS")
@@ -4406,7 +4629,7 @@
 			(pintype "bidirectional")
 			(uuid "233dab14-90a5-472a-828f-a7813d0b8c5f")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/OLED_128x32.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/OLED_128x32.step"
 			(offset
 				(xyz 19 -6 2.5)
 			)
@@ -4421,7 +4644,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "2d202bd6-f292-4dd5-84ee-e94a07ff4a32")
-		(at 32.4 88.35)
+		(at 64.8 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S29"
@@ -4755,7 +4978,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "34b63e7f-a870-4736-a034-372cb6a0e7ab")
-		(at 32.4 126.35)
+		(at 64.8 175.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S57"
@@ -5089,7 +5312,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "35d84f65-0c25-4327-a007-33d96e7397cb")
-		(at 76.9 107.35)
+		(at 109.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S45"
@@ -5423,7 +5646,7 @@
 	(footprint "ScottoKeebs_MCU:Raspberry_Pi_Pico"
 		(layer "F.Cu")
 		(uuid "36a57214-4584-427c-ad73-e9deec91a942")
-		(at 44.105 25.15 90)
+		(at 76.505 74.15 90)
 		(property "Reference" "U1"
 			(at 0 -32 90)
 			(layer "F.SilkS")
@@ -7724,7 +7947,7 @@
 			(pintype "bidirectional")
 			(uuid "ffa4c038-a7c1-49a8-ab35-04bfb3b2fa85")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MCU.3dshapes/Raspberry_Pi_Pico.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_MCU.3dshapes/Raspberry_Pi_Pico.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7739,7 +7962,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "3a4cc8f6-19be-46aa-a0c5-4d21a505614e")
-		(at 196.9 107.35)
+		(at 229.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S51"
@@ -8073,7 +8296,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "3c36d2a9-00e9-4edc-8fab-06f136561175")
-		(at 216.9 50.35)
+		(at 249.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S10"
@@ -8407,7 +8630,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "40e90eab-3a1f-4c02-a8de-85cc90b743b4")
-		(at 196.9 88.35)
+		(at 229.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S37"
@@ -8741,7 +8964,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "41dd8e97-5d7d-4cb6-891f-a21d59c6f4ea")
-		(at 96.9 88.35)
+		(at 129.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S32"
@@ -9075,7 +9298,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "4247eebb-3ae5-4278-a54e-dfb9c4e0637f")
-		(at 216.9 107.35)
+		(at 249.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S52"
@@ -9409,7 +9632,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "43b070c9-d264-45a6-90c0-d2fee9238e1d")
-		(at 61.4 126.35)
+		(at 93.8 175.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S58"
@@ -9743,7 +9966,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "45a4aa9a-5911-4f44-849c-b65ea5deb9bf")
-		(at 176.9 50.35)
+		(at 209.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S8"
@@ -10077,7 +10300,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "47f1fe5d-d41a-4c32-ba0d-7d6301c7b5e4")
-		(at 276.9 107.35)
+		(at 309.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S55"
@@ -10411,7 +10634,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "4cd66e75-4922-4f87-a62a-ce5c3d7d3531")
-		(at 76.9 50.35)
+		(at 109.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S3"
@@ -10745,7 +10968,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_5.50u"
 		(layer "F.Cu")
 		(uuid "54f733db-9b74-470a-baa6-abff86297f5b")
-		(at 155.4 126.35)
+		(at 187.8 175.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 5.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 5.50u")
 		(property "Reference" "S60"
@@ -11076,10 +11299,233 @@
 			)
 		)
 	)
+	(footprint "ScottoKeebs_Components:OLED_128x32"
+		(layer "F.Cu")
+		(uuid "59dc64db-386c-4f5b-a945-1114697dfcc9")
+		(at 141.7 71.95)
+		(property "Reference" "J2"
+			(at 7.75 10 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dbe78f26-2829-451e-bc4d-e7f937f20e50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OLED_128x32"
+			(at 5.75 5.75 0)
+			(layer "F.Fab")
+			(uuid "3f285d4f-848a-45ff-9a54-7edc26573fe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:OLED_128x32"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5cb9395-f5d7-4df9-95e5-d30fed23ef49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3925d58-44f8-421b-9f67-eb4fc1e96625")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2a300cf-208d-439a-bab4-b4308df942c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cca6ed4a-a02a-4eb8-9440-3ee5225800f1")
+		(sheetname "Root")
+		(sheetfile "Quantum Board.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
+		(fp_line
+			(start 0 0)
+			(end 0 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "fad71d67-e267-47b6-adff-06aad21b8561")
+		)
+		(fp_line
+			(start 0 0)
+			(end 38 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6355dddf-b13c-4615-a402-8c310efe15ae")
+		)
+		(fp_line
+			(start 5.75 0)
+			(end 5.75 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0f2b4be2-b5c0-41b9-a3da-828e0fc7f0da")
+		)
+		(fp_line
+			(start 7.06 2.22)
+			(end 7.06 7.74)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "f418d4f3-2a7d-4b49-a4ee-e477ba3fd760")
+		)
+		(fp_line
+			(start 7.06 2.22)
+			(end 29.44 2.22)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1ece2a4a-d773-45fb-a49f-35b23d072b48")
+		)
+		(fp_line
+			(start 7.06 7.74)
+			(end 29.44 7.74)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "bab7ccc6-4009-4027-8266-176a404a3929")
+		)
+		(fp_line
+			(start 29.44 7.74)
+			(end 29.44 2.22)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "a42f3cb3-5893-4920-9145-d01ddb10ca8a")
+		)
+		(fp_line
+			(start 35.75 0)
+			(end 35.75 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "7eb7e4df-6bc1-4868-b580-c6cf255a92b6")
+		)
+		(fp_line
+			(start 38 0)
+			(end 38 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "3dd64284-f4e9-4c1b-9fd5-457af80acb5d")
+		)
+		(fp_line
+			(start 38 12)
+			(end 0 12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "637c135b-0119-48a0-b189-9e2ede68fccd")
+		)
+		(pad "1" thru_hole rect
+			(at 1.6 9.8 180)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 72 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "bdc880b3-4a68-4197-84a7-1056f03302a0")
+		)
+		(pad "2" thru_hole oval
+			(at 1.6 7.26 180)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 73 "+5V")
+			(pinfunction "VCC")
+			(pintype "power_in")
+			(uuid "e505186a-0fd3-43fe-8482-b152a7f2714c")
+		)
+		(pad "3" thru_hole oval
+			(at 1.6 4.72 180)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 70 "SCL")
+			(pinfunction "SCL")
+			(pintype "input")
+			(uuid "b9819da0-679c-47ca-8fbb-8ac596907a49")
+		)
+		(pad "4" thru_hole oval
+			(at 1.6 2.18 180)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 71 "SDA")
+			(pinfunction "SDA")
+			(pintype "bidirectional")
+			(uuid "3d85f5bf-6828-498f-9dec-930647dd7c1a")
+		)
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/OLED_128x32.step"
+			(offset
+				(xyz 19 -6 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "5b2b3100-93ee-4133-ba2f-5a3ab844bcd4")
-		(at 284.9 126.35)
+		(at 317.3 175.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S64"
@@ -11413,7 +11859,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "5d2263a6-b2a0-43a0-b11e-5b5d023626ed")
-		(at 176.9 69.35)
+		(at 209.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S22"
@@ -11747,7 +12193,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "5ffb8f96-007b-4e4e-b372-e596890b1442")
-		(at 96.9 69.35)
+		(at 129.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S18"
@@ -12081,7 +12527,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "61b882f7-979c-4fd5-9665-08d5ee7849df")
-		(at 56.9 69.35)
+		(at 89.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S16"
@@ -12415,7 +12861,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "64b71c6e-691d-433b-a989-b25dbcb287d4")
-		(at 136.9 69.35)
+		(at 169.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S20"
@@ -12749,7 +13195,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "67f8216e-5a50-4701-9452-9dc7ee796c7c")
-		(at 256.9 107.35)
+		(at 289.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S54"
@@ -13083,7 +13529,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "6e7c31b3-922f-449f-8e27-ef9b31fab6b2")
-		(at 301.4 69.35)
+		(at 333.8 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S28"
@@ -13417,7 +13863,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "71d4d2eb-7fac-47c1-8ec2-f9f9b6910225")
-		(at 236.9 88.35)
+		(at 269.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S39"
@@ -13751,7 +14197,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "7f6ae980-af1f-4df7-8eeb-68393690ed17")
-		(at 264.9 126.35)
+		(at 297.3 175.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S63"
@@ -14085,7 +14531,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "841f92f5-d4c3-4193-82f1-4606dc725fa4")
-		(at 244.9 126.35)
+		(at 277.3 175.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S62"
@@ -14419,7 +14865,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "84dd08d2-f134-48af-9146-08fbab28cdce")
-		(at 276.9 88.35)
+		(at 309.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S41"
@@ -14753,7 +15199,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "8d63592d-da39-423d-98e0-13029f47081b")
-		(at 56.9 107.35)
+		(at 89.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S44"
@@ -15087,7 +15533,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "8eaf328f-f294-4c19-bace-66a9a92a07a3")
-		(at 176.9 107.35)
+		(at 209.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S50"
@@ -15421,7 +15867,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "8f77a030-8ae1-4d09-8ee9-ab7161fe49de")
-		(at 301.4 50.35)
+		(at 333.8 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S14"
@@ -15755,7 +16201,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "a17df290-c259-43b9-8c9c-b387dba1ffcd")
-		(at 136.9 50.35)
+		(at 169.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S6"
@@ -16089,7 +16535,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "a2cb503b-e337-4aec-91de-99d36dff5fa5")
-		(at 216.9 69.35)
+		(at 249.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S24"
@@ -16423,7 +16869,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "acb71ce6-cc7b-497d-9fb0-45557851429d")
-		(at 136.9 107.35)
+		(at 169.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S48"
@@ -16757,7 +17203,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "ada76de2-5e3b-475e-995a-bc4d6e524599")
-		(at 156.9 88.35)
+		(at 189.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S35"
@@ -17091,7 +17537,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "afddd7be-3bb6-4e91-b81c-db523339052e")
-		(at 116.9 50.35)
+		(at 149.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S5"
@@ -17425,7 +17871,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "b3547563-63cd-4b68-a199-7dffc8b11768")
-		(at 256.9 50.35)
+		(at 289.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S12"
@@ -17759,7 +18205,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "b76cf97d-afa4-49e3-bfa2-0b027705a028")
-		(at 196.9 69.35)
+		(at 229.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S23"
@@ -18093,7 +18539,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "c0066cd8-2f6e-4377-ae87-7a1218da4af5")
-		(at 32.4 107.35)
+		(at 64.8 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S43"
@@ -18427,7 +18873,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "c0be1efa-707d-4d9d-8d55-3d465454888c")
-		(at 301.4 88.35)
+		(at 333.8 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S42"
@@ -18761,7 +19207,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "c2e5707a-de50-419e-96a0-6f7b793b875b")
-		(at 276.9 69.35)
+		(at 309.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S27"
@@ -19095,7 +19541,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "c4be7eb2-2c4c-46cd-9851-30a020207819")
-		(at 220.4 126.35)
+		(at 252.8 175.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S61"
@@ -19429,7 +19875,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "c863335b-3f31-44bd-b9bf-adb1e5118859")
-		(at 301.4 107.35)
+		(at 333.8 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S56"
@@ -19763,7 +20209,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "cbf7e2a4-2e4a-4455-a281-2857e3a0e88a")
-		(at 136.9 88.35)
+		(at 169.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S34"
@@ -20097,7 +20543,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "d0ba9ad1-6711-4f14-acab-ae02d2bf8dea")
-		(at 276.9 50.35)
+		(at 309.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S13"
@@ -20431,7 +20877,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "dbb28c4e-4b92-4670-9408-b58515bd0f11")
-		(at 56.9 50.35)
+		(at 89.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S2"
@@ -20765,7 +21211,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "dbcd0176-8a7f-4a9e-98a6-0890ac314a44")
-		(at 156.9 69.35)
+		(at 189.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S21"
@@ -21099,7 +21545,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "dcea7598-910f-4a0e-8e41-22531285088d")
-		(at 256.9 69.35)
+		(at 289.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S26"
@@ -21433,7 +21879,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "dfa3637c-12cd-464d-812b-9c59a7333b55")
-		(at 196.9 50.35)
+		(at 229.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S9"
@@ -21767,7 +22213,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "e06b3316-d4ef-4104-8461-04ec42dec6ac")
-		(at 236.9 107.35)
+		(at 269.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S53"
@@ -22101,7 +22547,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "f14f9819-2aa3-48b9-bf70-6fd0018079c6")
-		(at 216.9 88.35)
+		(at 249.3 137.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S38"
@@ -22435,7 +22881,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "f2994e87-db38-410c-ac9d-3a8938af71eb")
-		(at 90.4 126.35)
+		(at 122.8 175.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S59"
@@ -22769,7 +23215,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "f6a19e82-00bd-425f-83cf-7ed9c053117e")
-		(at 76.9 69.35)
+		(at 109.3 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S17"
@@ -23103,7 +23549,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "f6c8722e-c35d-4cbd-8bfa-dd7649206422")
-		(at 156.9 107.35)
+		(at 189.3 156.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S49"
@@ -23437,7 +23883,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.50u"
 		(layer "F.Cu")
 		(uuid "f9d8f8b3-86e6-46d4-84ad-c3d35d851c15")
-		(at 32.4 69.35)
+		(at 64.8 118.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.50u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u")
 		(property "Reference" "S15"
@@ -23771,7 +24217,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "fe46acce-74e3-44a2-aaa2-a2009a739acf")
-		(at 96.9 50.35)
+		(at 129.3 99.35)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S4"
@@ -24105,7 +24551,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "0936b8df-dca1-4542-a110-5b1f59ca05d6")
-		(at 44.4 182.72 90)
+		(at 278.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D25"
@@ -24331,7 +24777,7 @@
 			(pintype "passive")
 			(uuid "22e0acad-072b-4e53-838f-867bf5e7a4bf")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24346,7 +24792,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "0c747fd3-9036-4301-a5c5-0ed21a2d9969")
-		(at 83.45 150.41 90)
+		(at 278.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D53"
@@ -24572,7 +25018,7 @@
 			(pintype "passive")
 			(uuid "0b8d365b-5857-46b0-b19a-22b805e3d930")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24587,7 +25033,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "13609bc4-45d3-4573-9395-96fe0321b5fe")
-		(at 47.95 182.72 90)
+		(at 258.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D24"
@@ -24813,7 +25259,7 @@
 			(pintype "passive")
 			(uuid "b1c577f8-b780-4a26-bc0d-ccf7b3d61308")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24828,7 +25274,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "155eaeb5-e3cd-4b1f-9a81-c02b52833b3e")
-		(at 51.5 161.18 90)
+		(at 198.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D49"
@@ -25054,7 +25500,7 @@
 			(pintype "passive")
 			(uuid "30b8653f-e07c-41b8-b018-5ef0ff3f71af")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25069,7 +25515,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "169d7103-7fff-49bd-a9d3-1c1955acf57c")
-		(at 62.15 182.72 90)
+		(at 178.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D20"
@@ -25295,7 +25741,7 @@
 			(pintype "passive")
 			(uuid "ec0c1ebd-0c0a-4369-ab98-968c06ee46dc")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25310,7 +25756,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "1cf4ee0f-819f-4877-a243-ccec4f4e4072")
-		(at 65.9 54.16 90)
+		(at 98.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D2"
@@ -25536,7 +25982,7 @@
 			(pintype "passive")
 			(uuid "4eac5f58-c648-40a9-9a2e-46a1b01f4a9b")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25551,7 +25997,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "23c95b96-1f3a-4237-96b3-bf3f411e3de6")
-		(at 47.95 150.41 90)
+		(at 306.3 179.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D69"
@@ -25777,7 +26223,7 @@
 			(pintype "passive")
 			(uuid "7edb78e8-1329-44e2-aba9-3ac19e5cce7b")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25792,7 +26238,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "25c84d39-7e82-425c-b1eb-69176e03cbb2")
-		(at 51.5 150.41 90)
+		(at 286.3 179.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D68"
@@ -26018,7 +26464,7 @@
 			(pintype "passive")
 			(uuid "c6e8224a-8b1e-41e7-9fd1-a05ad9521f71")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26033,7 +26479,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "28ddb37d-b55a-4bc2-a180-361f96d77894")
-		(at 40.85 161.18 90)
+		(at 258.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D52"
@@ -26259,7 +26705,7 @@
 			(pintype "passive")
 			(uuid "8df633f3-1c80-41a8-bee8-667c7e6e23b5")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26274,7 +26720,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "2d57ed06-e39b-428e-b03e-903c7016aa96")
-		(at 65.7 161.18 90)
+		(at 118.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D45"
@@ -26500,7 +26946,7 @@
 			(pintype "passive")
 			(uuid "6a8190ea-f3a9-42a8-89f4-0e9f63302588")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26515,7 +26961,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "2f021dae-e123-4249-9bb9-18f60d910e0b")
-		(at 265.9 54.16 90)
+		(at 298.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D12"
@@ -26741,7 +27187,7 @@
 			(pintype "passive")
 			(uuid "14f5523a-5a50-4781-97a2-6fdd921ca51b")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26756,7 +27202,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "2f8cf29e-27ad-4376-9981-a122ff6e4341")
-		(at 55.05 171.95 90)
+		(at 198.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D35"
@@ -26982,7 +27428,7 @@
 			(pintype "passive")
 			(uuid "88bbdffa-8401-419b-8079-f63b8de3675a")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26997,7 +27443,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "3958d0e1-6f76-4aea-ac7a-dc870245077e")
-		(at 125.9 54.16 90)
+		(at 158.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D5"
@@ -27223,7 +27669,7 @@
 			(pintype "passive")
 			(uuid "96c0a6cc-5172-4eec-a61f-547cf27c9798")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27238,7 +27684,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "3d53ddf5-2bed-42ef-beba-356d0c4b83f4")
-		(at 69.25 171.95 90)
+		(at 118.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D31"
@@ -27464,7 +27910,7 @@
 			(pintype "passive")
 			(uuid "c8c402be-c127-4e90-aa40-6f1af83c7533")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27479,7 +27925,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "428aaf02-9669-4644-a1b5-96d1f1076825")
-		(at 69.25 161.18 90)
+		(at 98.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D44"
@@ -27705,7 +28151,7 @@
 			(pintype "passive")
 			(uuid "e5c1f078-1867-4d89-ae91-cf928f6a919e")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27720,7 +28166,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "4933b500-fc8f-4cef-8029-9052e1f8351e")
-		(at 45.9 73.16 90)
+		(at 78.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D15"
@@ -27946,7 +28392,7 @@
 			(pintype "passive")
 			(uuid "0442085e-2e9c-4541-ab9c-7faf3785cbc3")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27961,7 +28407,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "4f7c94c8-6d2e-43b6-8d20-371597378606")
-		(at 40.85 182.72 90)
+		(at 298.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D26"
@@ -28187,7 +28633,7 @@
 			(pintype "passive")
 			(uuid "dd7a7ee8-c035-46fe-a6ef-8de928582128")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28202,7 +28648,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "5e212a4e-3ba9-4605-87c4-38f7ba226ee7")
-		(at 85.9 73.16 90)
+		(at 118.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D17"
@@ -28428,7 +28874,7 @@
 			(pintype "passive")
 			(uuid "0849cb62-5f6e-4b98-91ee-9f255891937b")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28443,7 +28889,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "624b801f-ac55-4718-b27f-75fbec46ee0a")
-		(at 76.35 171.95 90)
+		(at 78.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D29"
@@ -28669,7 +29115,7 @@
 			(pintype "passive")
 			(uuid "5d2d5b33-9041-4224-9308-c1f0f1ba01e0")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28684,7 +29130,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "62676192-e267-4852-9b99-e390ef18d1de")
-		(at 65.7 150.41 90)
+		(at 107.3 179.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D58"
@@ -28910,7 +29356,7 @@
 			(pintype "passive")
 			(uuid "9a2f7463-1da3-4d41-ab00-3f997c5d6b83")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28925,7 +29371,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "64665f13-6933-47b0-a225-079ea2b3b9eb")
-		(at 145.9 54.16 90)
+		(at 178.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D6"
@@ -29151,7 +29597,7 @@
 			(pintype "passive")
 			(uuid "d442331b-6356-4c78-8ada-ca18db3ee720")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29166,7 +29612,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "678873d1-0c8b-40b1-b54f-d6deacba0d54")
-		(at 55.05 150.41 90)
+		(at 266.3 179.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D67"
@@ -29392,7 +29838,7 @@
 			(pintype "passive")
 			(uuid "a49bfc6e-d85a-4391-8df6-603d692e5056")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29407,7 +29853,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "6a59c359-ade6-48b4-bea2-d38b0b0aecb0")
-		(at 51.5 182.72 90)
+		(at 238.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D23"
@@ -29633,7 +30079,7 @@
 			(pintype "passive")
 			(uuid "5bef1253-9573-4350-a9c0-0d310e41838f")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29648,7 +30094,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "6e511134-a119-414d-87d6-a2afd33f02d2")
-		(at 285.9 54.16 90)
+		(at 318.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D13"
@@ -29874,7 +30320,7 @@
 			(pintype "passive")
 			(uuid "d06898af-32b3-46be-8ca3-a0f28e49f3c6")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29889,7 +30335,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "820be5e4-8fa3-4340-bb58-d29bf5ea7377")
-		(at 72.8 161.18 90)
+		(at 78.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D43"
@@ -30115,7 +30561,7 @@
 			(pintype "passive")
 			(uuid "ec0a46bb-2264-4cc4-b829-853ba3e6e0c9")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30130,7 +30576,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "88966bbf-4f20-41a3-aadd-a41f0bccd0e4")
-		(at 45.9 46.54 -90)
+		(at 78.3 95.54 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D1"
@@ -30356,7 +30802,7 @@
 			(pintype "passive")
 			(uuid "a48b5b03-5e47-40af-93c1-e9ffe1b26c1f")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30371,7 +30817,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "8a121723-d70c-44e0-b940-609ce92b0845")
-		(at 76.35 161.18 90)
+		(at 347.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D42"
@@ -30597,7 +31043,7 @@
 			(pintype "passive")
 			(uuid "a468e6c2-0457-43af-8cf5-ce14f1f2822f")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30612,7 +31058,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "8f9b3e10-58eb-4f43-9362-fa6c5e219497")
-		(at 55.05 161.18 90)
+		(at 178.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D48"
@@ -30838,7 +31284,7 @@
 			(pintype "passive")
 			(uuid "fc50b8ba-11d3-4246-87fa-81bb29e5c145")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30853,7 +31299,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "9052586b-1b79-422c-957a-3dd9785793be")
-		(at 76.35 150.41 90)
+		(at 318.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D55"
@@ -31079,7 +31525,7 @@
 			(pintype "passive")
 			(uuid "58ce4c86-fe5d-4e30-88ff-7b1f8577eace")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31094,7 +31540,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "9bf94086-ce64-428e-bb0b-a5b019047c05")
-		(at 58.6 150.41 90)
+		(at 237.3 179.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D63"
@@ -31320,7 +31766,7 @@
 			(pintype "passive")
 			(uuid "70cc35f7-5b05-40f9-bfb2-2213b4f12e62")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31335,7 +31781,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "9e1f5154-cc16-4ac9-b155-b13a4e07d4b4")
-		(at 58.6 182.72 90)
+		(at 198.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D21"
@@ -31561,7 +32007,7 @@
 			(pintype "passive")
 			(uuid "1d55bd5c-c1a9-4d10-81dd-e4b10aa27656")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31576,7 +32022,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "aa4fac45-9477-4565-b001-9aeda1aa80fc")
-		(at 245.9 54.16 90)
+		(at 278.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D11"
@@ -31802,7 +32248,7 @@
 			(pintype "passive")
 			(uuid "29692cc9-df9b-4188-8914-52caa12848e2")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31817,7 +32263,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "ab87b5e2-1d72-480f-9d7b-e7329be28e54")
-		(at 65.7 171.95 90)
+		(at 138.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D32"
@@ -32043,7 +32489,7 @@
 			(pintype "passive")
 			(uuid "67960662-0517-43f2-b4be-737cb900a958")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32058,7 +32504,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "ae08db21-79c1-4ecd-9b3d-86886fa04a16")
-		(at 72.8 171.95 90)
+		(at 98.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D30"
@@ -32284,7 +32730,7 @@
 			(pintype "passive")
 			(uuid "dfca1883-4d8e-4c15-a217-b1fd66f7c6b7")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32299,7 +32745,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "aebe9f15-c65d-4125-9674-ccb7d5c94d1b")
-		(at 205.9 54.16 90)
+		(at 238.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D9"
@@ -32525,7 +32971,7 @@
 			(pintype "passive")
 			(uuid "27cd098e-e902-4ef9-a5b0-aabff08ce030")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32540,7 +32986,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "b231a35d-8946-4331-975d-a87c44df752d")
-		(at 165.9 54.16 90)
+		(at 198.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D7"
@@ -32766,7 +33212,7 @@
 			(pintype "passive")
 			(uuid "4fc15aec-4033-4ab0-9675-24ec2ce7d47e")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32781,7 +33227,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "b32cd2e0-47ea-4171-ac1b-16f0281e2944")
-		(at 44.4 150.41 90)
+		(at 326.3 179.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D70"
@@ -33007,22 +33453,22 @@
 			(pintype "passive")
 			(uuid "94e37463-057b-4e5b-90cd-a39efc7737fe")
 		)
-		(model "C:/Users/Henry/Downloads/Diode DO-35 300 mil.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
-				(xyz 3.75 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "b44787ef-07a6-4130-8edf-e95751ae9ec1")
-		(at 83.45 161.18 90)
+		(at 298.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D40"
@@ -33248,7 +33694,7 @@
 			(pintype "passive")
 			(uuid "c220ef82-3305-4abc-9e3e-1fe6ca8fa4a3")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33263,7 +33709,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "b5db1560-8f84-44fb-b4a0-e45419387c91")
-		(at 314.9 54.16 90)
+		(at 347.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D14"
@@ -33489,7 +33935,7 @@
 			(pintype "passive")
 			(uuid "81ffa9ac-dbd0-413d-81a9-e335b56b6f3e")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33504,7 +33950,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "b6508572-2a50-4c63-9666-4671fe67eabf")
-		(at 105.9 73.16 90)
+		(at 138.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D18"
@@ -33730,7 +34176,7 @@
 			(pintype "passive")
 			(uuid "e11b2981-a831-4b1d-9179-5be197b52942")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33745,7 +34191,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "b919618a-ffb8-4dd7-92b1-6e4139ae12c6")
-		(at 62.15 150.41 90)
+		(at 136.3 179.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D59"
@@ -33971,7 +34417,7 @@
 			(pintype "passive")
 			(uuid "95af4d5e-0126-4190-bf9e-b150f9b57a79")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33986,7 +34432,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "ba9196fa-814d-4877-8b1e-5483a90ca452")
-		(at 65.9 73.16 90)
+		(at 98.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D16"
@@ -34212,7 +34658,7 @@
 			(pintype "passive")
 			(uuid "f62849ad-ebdb-44fe-985f-167bfcdc0788")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34227,7 +34673,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "bb0fb3ab-063d-4404-a09e-f34a9bc1f985")
-		(at 47.95 171.95 90)
+		(at 238.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D37"
@@ -34453,7 +34899,7 @@
 			(pintype "passive")
 			(uuid "ac7a6334-9050-49c1-baf6-669c8ba484b2")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34468,7 +34914,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "bb56444b-0d31-47b9-8dd0-ec925673d096")
-		(at 58.6 171.95 90)
+		(at 178.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D34"
@@ -34694,7 +35140,7 @@
 			(pintype "passive")
 			(uuid "957a09e1-b8d1-4131-a1df-d897c8166efc")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34709,7 +35155,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "bcb4b1ad-302f-442d-b5c2-46d28a1a95e3")
-		(at 62.15 161.18 90)
+		(at 138.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D46"
@@ -34935,7 +35381,7 @@
 			(pintype "passive")
 			(uuid "987b0107-b234-4600-9242-bf70b7aff5d6")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34950,7 +35396,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "bd961dab-8532-43ce-b068-0967814b9d46")
-		(at 47.95 161.18 90)
+		(at 218.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D50"
@@ -35176,7 +35622,7 @@
 			(pintype "passive")
 			(uuid "64181794-6e81-43fa-b50c-b3a1b21f5ad3")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35191,7 +35637,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "c1f930da-8d3c-4085-af32-01ca1e06f8a6")
-		(at 65.7 182.72 90)
+		(at 158.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D19"
@@ -35417,7 +35863,7 @@
 			(pintype "passive")
 			(uuid "25f3b971-e626-4422-9176-52bdbe2522b4")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35432,7 +35878,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "d33b3fe9-6177-4d85-820c-006d92d26b3f")
-		(at 83.45 171.95 90)
+		(at 318.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D27"
@@ -35658,7 +36104,7 @@
 			(pintype "passive")
 			(uuid "ed40d87a-8a35-4778-9ed7-3aa7db1f1d0d")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35673,7 +36119,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "d3a8ab19-111d-4bb9-bba6-48e24ec809fd")
-		(at 72.8 150.41 90)
+		(at 347.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D56"
@@ -35899,7 +36345,7 @@
 			(pintype "passive")
 			(uuid "5eeb99ec-e71f-4dcd-aa7b-46b68756c20d")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35914,7 +36360,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "d4dd5cbb-1a67-43f3-9b2b-cd79e56f52c6")
-		(at 55.05 182.72 90)
+		(at 218.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D22"
@@ -36140,7 +36586,7 @@
 			(pintype "passive")
 			(uuid "d2601009-ef37-44f0-8631-9924b4e3fa5d")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36155,7 +36601,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "d50d6f4e-bd2e-459d-b9d7-e13f0f60f8f3")
-		(at 58.6 161.18 90)
+		(at 158.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D47"
@@ -36381,7 +36827,7 @@
 			(pintype "passive")
 			(uuid "10dcf689-fe54-4ade-acdb-bfbbd1da1473")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36396,7 +36842,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "d8dc07e8-13bb-4990-bf55-5d0780c1020d")
-		(at 40.85 171.95 90)
+		(at 278.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D39"
@@ -36622,7 +37068,7 @@
 			(pintype "passive")
 			(uuid "d359c37d-47dd-49d8-b1bc-af1f78fdfeb3")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36637,7 +37083,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "da673a07-7568-4ac3-af37-b1b7d8905639")
-		(at 44.4 171.95 90)
+		(at 258.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D38"
@@ -36863,7 +37309,7 @@
 			(pintype "passive")
 			(uuid "20c2b305-68e2-4199-875d-56b3bed8f0d8")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36878,7 +37324,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "daf494d6-a4ba-453d-830b-e72c05a9cac1")
-		(at 79.9 171.95 90)
+		(at 347.3 122.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D28"
@@ -37104,7 +37550,7 @@
 			(pintype "passive")
 			(uuid "28f74563-8818-4b51-91f2-d42b88784e75")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37119,7 +37565,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "de0e42ca-1d09-4c34-8c7a-e108c7c309ae")
-		(at 185.9 54.16 90)
+		(at 218.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D8"
@@ -37345,7 +37791,7 @@
 			(pintype "passive")
 			(uuid "47725171-105b-49fd-8465-547ae4ef3beb")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37360,7 +37806,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "df4d9a7a-867a-41f4-b6b1-a8c36de323c9")
-		(at 105.9 54.16 90)
+		(at 138.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D4"
@@ -37586,7 +38032,7 @@
 			(pintype "passive")
 			(uuid "eed61987-2950-4bbe-8ecb-8b02ec6fedd5")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37601,7 +38047,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "e2800cdf-a4e1-4085-af78-c5bf36c1de48")
-		(at 44.4 161.18 90)
+		(at 238.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D51"
@@ -37827,7 +38273,7 @@
 			(pintype "passive")
 			(uuid "fd196f9d-8db2-4a3d-8eb0-39273d7ec11d")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37842,7 +38288,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "ec5af36e-d4e1-4c35-ad90-a2d4cc8401b2")
-		(at 62.15 171.95 90)
+		(at 158.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D33"
@@ -38068,7 +38514,7 @@
 			(pintype "passive")
 			(uuid "9b35af29-60f0-4786-a582-6e74c12bc8f5")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38083,7 +38529,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "ecb01b57-8927-4bc5-b7aa-7dd330655c34")
-		(at 79.9 161.18 90)
+		(at 318.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D41"
@@ -38309,7 +38755,7 @@
 			(pintype "passive")
 			(uuid "ece0ad65-f5d7-49ba-bf51-223483f54629")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38324,7 +38770,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "eec80228-f260-45f3-8d96-6ef2dabd96c4")
-		(at 51.5 171.95 90)
+		(at 218.3 141.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D36"
@@ -38550,7 +38996,7 @@
 			(pintype "passive")
 			(uuid "821c3434-edad-4cba-9fdb-cdb6e4f8236b")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38565,7 +39011,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "f26df7b2-4f73-4613-a8f3-1c0a1c0f0832")
-		(at 85.9 54.16 90)
+		(at 118.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
@@ -38791,7 +39237,7 @@
 			(pintype "passive")
 			(uuid "bf32418f-bcae-4e9a-b799-89a0ed399a1c")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38806,7 +39252,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "f74fae4f-907b-4e99-842a-8cfe1eb4a111")
-		(at 79.9 150.41 90)
+		(at 298.3 160.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D54"
@@ -39032,7 +39478,7 @@
 			(pintype "passive")
 			(uuid "dbfbba4c-e1cf-43dd-9da5-088cdf6b22ca")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39047,7 +39493,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "f760c6bb-7c49-449e-9ac0-18ed0e3816e3")
-		(at 69.25 150.41 90)
+		(at 78.3 179.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D57"
@@ -39273,7 +39719,7 @@
 			(pintype "passive")
 			(uuid "c052470e-c1a4-41ae-a227-8f18ac264170")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39288,7 +39734,7 @@
 	(footprint "ScottoKeebs_Components:Diode_DO-35"
 		(layer "B.Cu")
 		(uuid "f8cb9315-e11d-4e32-b36f-a125d247d0d2")
-		(at 225.9 54.16 90)
+		(at 258.3 103.16 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D10"
@@ -39514,7 +39960,7 @@
 			(pintype "passive")
 			(uuid "b19bbec2-9bdd-4ee8-aa27-c47510f0f182")
 		)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+		(model "${SCOTTOKEEBS}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39527,13 +39973,2144 @@
 		)
 	)
 	(gr_line
-		(start 45.9 134.85)
-		(end 46.9 134.85)
+		(start 78.3 183.85)
+		(end 79.3 183.85)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(layer "F.Cu")
 		(uuid "9e16fa4f-f61f-4673-98c5-9e4d006a3a2f")
+	)
+	(gr_rect
+		(start 50.1 62.3)
+		(end 349.7 185.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "015be682-095d-4628-9f37-cbe569d92a8c")
+	)
+	(segment
+		(start 134.1 77.6)
+		(end 140.9 77.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "1895d599-a825-4372-9de9-6ae8767d7c51")
+	)
+	(segment
+		(start 140.9 76.65)
+		(end 143.28 76.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "25f07d5d-a7ac-439c-abe8-ccd23e6efda9")
+	)
+	(segment
+		(start 143.3 76.67)
+		(end 186.3 76.67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "274e78b5-212b-48e1-9e6f-ef92b04dc405")
+	)
+	(segment
+		(start 140.9 77.6)
+		(end 140.9 76.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "403623a0-b6fc-48bb-8a39-09b3da6d9b41")
+	)
+	(segment
+		(start 72.695 78.405)
+		(end 72.7 78.41)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "61b91bc1-771b-459a-a7b9-e4f7765b9ba8")
+	)
+	(segment
+		(start 72.695 65.26)
+		(end 72.695 78.405)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "690491b0-1997-4f35-8f54-740d27f0f476")
+	)
+	(segment
+		(start 134.1 78.41)
+		(end 134.1 77.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "9cd1413b-ddca-4b61-b9fd-7f0be68abe90")
+	)
+	(segment
+		(start 72.7 78.41)
+		(end 134.1 78.41)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "c2d5c3d6-c699-4220-9d49-85d794e6887f")
+	)
+	(segment
+		(start 143.28 76.65)
+		(end 143.3 76.67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "f25650d7-16f4-4fed-9cf5-0f903fe23027")
+	)
+	(segment
+		(start 133.7 77.2)
+		(end 140.5 77.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "30157816-1609-4a19-9dd4-3d7594122b4c")
+	)
+	(segment
+		(start 75.19 65.305)
+		(end 75.19 77.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "43c475e1-cdd6-4822-9a06-cb2b89810443")
+	)
+	(segment
+		(start 75.235 65.26)
+		(end 75.19 65.305)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "4ad37a81-2271-4d1f-9758-718b3a85cb27")
+	)
+	(segment
+		(start 77.6 78)
+		(end 77.61 78.01)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "5aa4d37d-40f8-4a83-b873-7318bfb21ee1")
+	)
+	(segment
+		(start 140.5 77.2)
+		(end 140.5 74.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "5cd11393-70f6-4cd9-a06a-e2d501ef17a3")
+	)
+	(segment
+		(start 140.5 74.1)
+		(end 143.27 74.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "5ddf6934-a65c-4ae2-9763-315e8ec84266")
+	)
+	(segment
+		(start 75.2 78.01)
+		(end 77.59 78.01)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "9f22657a-97e6-432a-ac74-e1927c731f80")
+	)
+	(segment
+		(start 75.2 77.96)
+		(end 75.2 78.01)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "a0f7e050-316f-4a7c-b2d8-39e26a1c49bf")
+	)
+	(segment
+		(start 77.61 78.01)
+		(end 133.7 78.01)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "a8fc39b5-a9e7-49fd-97c4-84764fcb2056")
+	)
+	(segment
+		(start 77.59 78.01)
+		(end 77.6 78)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "b26f9129-b28b-40c5-adf8-c021cee17e05")
+	)
+	(segment
+		(start 143.3 74.13)
+		(end 186.3 74.13)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "ba4c57ff-a5a6-48ef-8523-cce4f5d34289")
+	)
+	(segment
+		(start 75.19 77.95)
+		(end 75.2 77.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "bbfe9c51-c676-4454-a7cf-65faf273d9ca")
+	)
+	(segment
+		(start 133.7 78.01)
+		(end 133.7 77.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "e750c0ac-ad0b-4a60-a757-5c1e9e7cf79c")
+	)
+	(segment
+		(start 143.27 74.1)
+		(end 143.3 74.13)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 71)
+		(uuid "f4b97ffe-4972-4884-8dbd-6b98c3b7230b")
+	)
+	(segment
+		(start 184.5 78.2)
+		(end 184.65 78.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "198e179e-02bf-41a6-8103-92ac99a646eb")
+	)
+	(segment
+		(start 184.95 77.9)
+		(end 188.25 77.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "19f44eb1-bd5e-4494-b7b7-8c95c1aac456")
+	)
+	(segment
+		(start 82.9 78.81)
+		(end 57.45 78.81)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "27f9c888-f684-44d9-a98b-596dbaa2eda2")
+	)
+	(segment
+		(start 134.54 78.75)
+		(end 134.5 78.79)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "3034e3f8-296a-442f-89a5-e9b699102f25")
+	)
+	(segment
+		(start 143.3 81.75)
+		(end 145.15 81.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "3159cd18-7c59-413e-8369-74fd00f0f9f2")
+	)
+	(segment
+		(start 134.55 78)
+		(end 134.54 78.01)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "320b84af-200a-47fe-abb3-3c16b6b1b8cb")
+	)
+	(segment
+		(start 143.3 81.75)
+		(end 184.5 81.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "3ae6c4bd-09bb-488d-a7b7-9f127e40a85a")
+	)
+	(segment
+		(start 134.5 78.79)
+		(end 134.5 78.81)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "3afca66f-5d68-42cc-9803-c3fb56f0d16d")
+	)
+	(segment
+		(start 134.5 78.81)
+		(end 82.9 78.81)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "3fde5ed3-92f2-4fd3-8317-1316b7081a63")
+	)
+	(segment
+		(start 134.54 78.01)
+		(end 134.54 78.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "4079a14e-d233-4ebb-b8b7-2213e9f90d4f")
+	)
+	(segment
+		(start 145.15 78)
+		(end 134.55 78)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "6a7e0199-f8bb-4291-a4e1-97a09365be86")
+	)
+	(segment
+		(start 184.5 81.75)
+		(end 184.5 78.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "8349f7d7-9f70-4c99-ad12-72a397306273")
+	)
+	(segment
+		(start 145.15 81.75)
+		(end 145.15 78)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "8c54fecb-103a-45ab-a1d9-db09e60c5958")
+	)
+	(segment
+		(start 184.5 81.75)
+		(end 186.3 81.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "b9d785c1-31aa-464e-a817-bfdaf70fc9be")
+	)
+	(segment
+		(start 57.455 65.26)
+		(end 57.455 78.805)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "c9996136-7167-44c8-8f44-cc35e055c00e")
+	)
+	(segment
+		(start 184.65 78.2)
+		(end 184.95 77.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "f8c96ff3-b980-465e-a192-c63b190e5860")
+	)
+	(segment
+		(start 52.36 79.21)
+		(end 52.35 79.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "10ec898a-05e4-4705-a57d-28eee94c5bb9")
+	)
+	(segment
+		(start 52.35 79.2)
+		(end 52.35 65.285)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "1c658435-e922-4637-8bd2-64411a06df92")
+	)
+	(segment
+		(start 187.69 79.21)
+		(end 187.7 79.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "3b17e799-a9aa-4254-9afe-fbe8ba604e55")
+	)
+	(segment
+		(start 187.7 79.2)
+		(end 187.7 83.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "4791939b-0143-4dcf-906a-51fed483fb7c")
+	)
+	(segment
+		(start 187.7 79.2)
+		(end 187.71 79.21)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "480caf18-bc18-4d9d-8029-e65936907490")
+	)
+	(segment
+		(start 187.7 83.55)
+		(end 141.25 83.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "5e2fdcff-7073-4d13-bce9-673644e6b0b6")
+	)
+	(segment
+		(start 141.25 83.55)
+		(end 141.25 79.21)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "5f5595b3-29ee-4ec4-ad88-c6938b6ceacc")
+	)
+	(segment
+		(start 52.35 65.285)
+		(end 52.375 65.26)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "7c192cc4-f0f9-4ba2-8846-4675b872ab38")
+	)
+	(segment
+		(start 186.3 79.21)
+		(end 187.69 79.21)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "cd3dc699-cade-4610-a3a0-90367479a8d2")
+	)
+	(segment
+		(start 143.3 79.21)
+		(end 141.25 79.21)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "cef650f1-928d-4a55-9548-2ae22e201200")
+	)
+	(segment
+		(start 141.25 79.21)
+		(end 52.36 79.21)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "e60bc9e3-7bae-4287-af23-bfcb93f0884a")
+	)
+	(segment
+		(start 187.71 79.21)
+		(end 229.3 79.21)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "fc7b6e0b-3e1c-4c14-a845-53d9b2cf5ad2")
+	)
+	(segment
+		(start 52.375 85.825)
+		(end 52.375 83.04)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "0177459d-8208-4f00-95c7-91a45affa8cd")
+	)
+	(segment
+		(start 62.725 167.375)
+		(end 64.8 169.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "021deb1a-e128-48c5-8791-51ae2dcc77cf")
+	)
+	(segment
+		(start 62.725 95.525)
+		(end 62.725 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "0f0a743c-ed61-4ae5-9c5d-122bf8f5aec8")
+	)
+	(segment
+		(start 62.725 129.375)
+		(end 64.8 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "272fcad6-17de-42b0-a710-1e295b858abc")
+	)
+	(segment
+		(start 62.725 133.525)
+		(end 62.725 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "3ad32e17-849d-4d4c-b187-a82fec5b2aa6")
+	)
+	(segment
+		(start 52.4 90.95)
+		(end 52.4 85.85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "472285c2-6aef-4791-8a62-653ed3e4f3f9")
+	)
+	(segment
+		(start 62.725 110.375)
+		(end 64.8 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "596125c1-f636-4dd2-83a5-e8fff9ed0c41")
+	)
+	(segment
+		(start 62.725 114.525)
+		(end 62.725 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "7678a16b-fc4a-48c6-9041-58fc9c54c620")
+	)
+	(segment
+		(start 62.725 148.375)
+		(end 64.8 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "7a824525-3c1a-4fdf-bf2a-48ba9cc76797")
+	)
+	(segment
+		(start 64.8 112.45)
+		(end 62.725 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "7dd15c8b-63ca-42fe-bfc2-b27c8f732535")
+	)
+	(segment
+		(start 64.8 90.95)
+		(end 52.4 90.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "997133d2-1fd9-4374-a583-77c45961f511")
+	)
+	(segment
+		(start 62.725 152.525)
+		(end 62.725 167.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "9f5c9a91-a8a8-4225-8504-2111bb3a43aa")
+	)
+	(segment
+		(start 64.8 150.45)
+		(end 62.725 152.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "a06c8e36-d79a-42d8-95dc-dcd5e1e3640f")
+	)
+	(segment
+		(start 52.4 85.85)
+		(end 52.375 85.825)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "a8188f16-b7aa-4d63-a4e3-4a5fe055de66")
+	)
+	(segment
+		(start 64.8 131.45)
+		(end 62.725 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "d9f3a1b1-7a7f-4f67-8a1d-18282afb0f95")
+	)
+	(segment
+		(start 64.8 93.45)
+		(end 64.8 90.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "ddede523-aa64-42e5-a981-d2a331679c44")
+	)
+	(segment
+		(start 64.8 93.45)
+		(end 62.725 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "f8915cef-7d5c-4245-a3a4-8a8f62a9cab3")
+	)
+	(segment
+		(start 87.225 133.525)
+		(end 89.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "0043ab53-80be-45c5-a146-38a00fff7ff8")
+	)
+	(segment
+		(start 89.3 150.45)
+		(end 87.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "0f2842f1-d1c3-4eac-b230-202026f905cf")
+	)
+	(segment
+		(start 89.3 90.55)
+		(end 89.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "4803113a-037b-477d-b6ae-10dd6231bebd")
+	)
+	(segment
+		(start 93.8 169.45)
+		(end 92.700001 168.350001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "51c0a647-8844-407b-9049-4119792933bb")
+	)
+	(segment
+		(start 54.915 83.04)
+		(end 54.915 90.515)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "5405fff7-95c7-49e7-aad4-f8a96a253ce5")
+	)
+	(segment
+		(start 87.225 95.525)
+		(end 89.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "7138d60e-3027-42b2-aad7-6f22ef891d23")
+	)
+	(segment
+		(start 92.700001 153.850001)
+		(end 89.3 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "75990bd6-6e51-4618-b0b0-b2d5a13c6835")
+	)
+	(segment
+		(start 87.225 114.525)
+		(end 89.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "815e3480-320d-4fbd-8f15-d8be8c40c892")
+	)
+	(segment
+		(start 92.700001 168.350001)
+		(end 92.700001 153.850001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "8caa640c-3fda-451d-9f1d-575289b0a0fb")
+	)
+	(segment
+		(start 87.225 148.375)
+		(end 87.225 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "9195b93c-b957-4b55-914d-48a22ccdf2c7")
+	)
+	(segment
+		(start 89.3 112.45)
+		(end 87.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "98b08bb6-9603-40c3-944c-14ec0ed097ba")
+	)
+	(segment
+		(start 87.225 110.375)
+		(end 87.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "a1d2eef9-6909-4324-b5c4-83369de610ee")
+	)
+	(segment
+		(start 54.95 90.55)
+		(end 89.3 90.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "b1dbeed3-d185-47c0-ad2a-f11fcd273b28")
+	)
+	(segment
+		(start 87.225 129.375)
+		(end 87.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "cc68c15f-133f-45ac-b50f-c25b168e74b5")
+	)
+	(segment
+		(start 89.3 131.45)
+		(end 87.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "e6792b89-3278-468e-aa5e-e03d9e4eac7d")
+	)
+	(segment
+		(start 54.915 90.515)
+		(end 54.95 90.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 75)
+		(uuid "ed0d79d9-ca10-426e-b181-7f3dd5bcd8f5")
+	)
+	(segment
+		(start 109.3 112.45)
+		(end 107.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "06b4cbc0-d7c2-4b76-8cb9-d251c30e1498")
+	)
+	(segment
+		(start 59.995 83.04)
+		(end 59.995 90.145)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "288715b6-3338-469a-a978-a75d70b65f49")
+	)
+	(segment
+		(start 107.225 95.525)
+		(end 107.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "43d3f97e-e122-4947-9fac-dafcaee090c7")
+	)
+	(segment
+		(start 109.3 153.4)
+		(end 122.8 166.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "58b98e94-866a-44cc-8180-674d672a5f4e")
+	)
+	(segment
+		(start 109.3 93.45)
+		(end 107.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "5e2275a4-b38a-4b89-878b-f1f1dab4384e")
+	)
+	(segment
+		(start 109.3 90.15)
+		(end 109.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "772d02c8-e310-4862-97ec-d22f43dd405d")
+	)
+	(segment
+		(start 107.225 129.375)
+		(end 109.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "99b67696-633e-48d6-ab50-746898f09643")
+	)
+	(segment
+		(start 59.995 90.145)
+		(end 60 90.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "9c449b8b-d6ad-4032-bb9e-51db4e5871c9")
+	)
+	(segment
+		(start 107.225 133.525)
+		(end 107.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "a535e117-4f38-4a12-a316-604eac781ce4")
+	)
+	(segment
+		(start 109.3 131.45)
+		(end 107.225 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "b592bce0-bfcb-4856-9a35-b08e78a5c5a4")
+	)
+	(segment
+		(start 122.8 166.9)
+		(end 122.8 169.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "cd074eb0-0449-4fa3-89c1-d9ece91e5158")
+	)
+	(segment
+		(start 60 90.15)
+		(end 109.3 90.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "d0036827-fd9a-46c8-a6e7-6d80f283e557")
+	)
+	(segment
+		(start 107.225 114.525)
+		(end 107.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "deefa527-1f24-4598-8e7f-6d510e2f26f7")
+	)
+	(segment
+		(start 109.3 150.45)
+		(end 109.3 153.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "f738fb17-02e8-4d42-a5aa-d43f335a5077")
+	)
+	(segment
+		(start 107.225 110.375)
+		(end 109.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "faecd3f7-a570-47cc-aa12-05bb338a7d54")
+	)
+	(segment
+		(start 107.225 148.375)
+		(end 109.3 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 76)
+		(uuid "ff6b5f46-1f15-48ec-8020-c376a0f11a7b")
+	)
+	(segment
+		(start 127.225 95.525)
+		(end 129.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "00d2646b-279f-40aa-aef6-28b3b0d28a56")
+	)
+	(segment
+		(start 127.225 129.375)
+		(end 127.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "016d360c-8c59-48ec-8a1f-60d12bae90cb")
+	)
+	(segment
+		(start 127.225 114.525)
+		(end 129.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "04303ab5-4d82-404c-a152-565907c380ab")
+	)
+	(segment
+		(start 127.225 148.375)
+		(end 127.225 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "36e50e0b-1dd1-4566-9aeb-618018baaf14")
+	)
+	(segment
+		(start 62.535 83.04)
+		(end 62.535 89.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "6386a9f0-fd54-4326-abc4-fb252437fe47")
+	)
+	(segment
+		(start 129.3 131.45)
+		(end 127.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "734858cb-a22d-46e6-9713-c794b72b0c67")
+	)
+	(segment
+		(start 129.3 150.45)
+		(end 127.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "82a99c0f-20e9-455b-811b-1555c9cb0aeb")
+	)
+	(segment
+		(start 129.3 89.75)
+		(end 129.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "8a7d0391-d2e4-4349-87be-2b58235a27a2")
+	)
+	(segment
+		(start 127.225 110.375)
+		(end 127.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "8cfadb09-6ba5-4554-a326-0d3276134168")
+	)
+	(segment
+		(start 129.3 112.45)
+		(end 127.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "a08c3bbc-f903-464b-8d9e-5d2078af019e")
+	)
+	(segment
+		(start 127.225 133.525)
+		(end 129.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "bd97efb6-305e-4d4f-80c5-cf9c0b7aaaaf")
+	)
+	(segment
+		(start 62.535 89.75)
+		(end 129.3 89.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 77)
+		(uuid "c15722da-43d6-43c7-b752-7f6664dc1aa3")
+	)
+	(segment
+		(start 149.3 112.45)
+		(end 145.1 116.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "157dea71-1e38-444f-abed-612e561d6dc8")
+	)
+	(segment
+		(start 147.225 97.763478)
+		(end 147.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "645c9caa-67ab-4361-8d9d-cdd0db04ab2b")
+	)
+	(segment
+		(start 146.5 134.25)
+		(end 146.5 147.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "68250d58-5bcf-4995-b54a-0fe872975b44")
+	)
+	(segment
+		(start 145.1 116.65)
+		(end 145.1 127.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "68389cc4-9671-4dd4-a626-95a7c5b46737")
+	)
+	(segment
+		(start 149.3 131.45)
+		(end 146.5 134.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "75c9117b-3422-4de3-9e7f-db5d047a3dda")
+	)
+	(segment
+		(start 65.1 89.35)
+		(end 149.3 89.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "80c31dee-8fc9-491f-a74c-6b5e13ba7fe3")
+	)
+	(segment
+		(start 149.3 95.688478)
+		(end 147.225 97.763478)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "8d9cfa63-191c-4eb6-9a13-b2f73f888e6e")
+	)
+	(segment
+		(start 147.225 110.375)
+		(end 149.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "aab952a3-9040-4e54-82e7-999d81b0a24a")
+	)
+	(segment
+		(start 65.075 89.325)
+		(end 65.1 89.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "b1ed1699-d75a-4ddf-8115-d6440b20b700")
+	)
+	(segment
+		(start 149.3 89.35)
+		(end 149.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "cd847b90-44e6-408f-95a8-17d074767a32")
+	)
+	(segment
+		(start 65.075 83.04)
+		(end 65.075 89.325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "d3134468-523d-4965-86f4-f052076b4730")
+	)
+	(segment
+		(start 149.3 93.45)
+		(end 149.3 95.688478)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "dbf10d3f-88a7-40ab-a2ef-a3d329a30e2e")
+	)
+	(segment
+		(start 145.1 127.25)
+		(end 149.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "df9c3770-0328-4742-942f-ed4d9e50fbda")
+	)
+	(segment
+		(start 146.5 147.65)
+		(end 149.3 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "f095abcc-8dac-45aa-9117-f2f56ee07856")
+	)
+	(segment
+		(start 167.225 133.525)
+		(end 169.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "1987da94-a75b-4000-a9dd-992886482fc4")
+	)
+	(segment
+		(start 67.65 88.95)
+		(end 169.3 88.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "2263b1dc-8089-43fa-a5f2-8d4ddef3885c")
+	)
+	(segment
+		(start 169.3 88.95)
+		(end 169.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "2b9ce642-b083-4b73-b3d6-678c48d8d0ea")
+	)
+	(segment
+		(start 169.3 131.45)
+		(end 167.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "46cde2ff-4f43-45fc-ba86-2cf9758b1c43")
+	)
+	(segment
+		(start 169.3 150.45)
+		(end 167.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "5dd01d2b-3f62-493b-8b8f-550e1f9625e4")
+	)
+	(segment
+		(start 167.225 110.375)
+		(end 167.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "606b0367-e6af-4f8f-8bba-e00bdafe8d09")
+	)
+	(segment
+		(start 167.225 129.375)
+		(end 167.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "83bd0896-4f29-43f5-8018-390fe81118ba")
+	)
+	(segment
+		(start 167.225 114.525)
+		(end 169.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "9238fe18-cd39-45b7-bb86-34b808f37ef9")
+	)
+	(segment
+		(start 169.3 112.45)
+		(end 167.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "a16cff29-b726-4b38-a515-74eb5c0c8c68")
+	)
+	(segment
+		(start 67.615 83.04)
+		(end 67.615 88.915)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "d53ce0a9-de71-4ee2-8a34-820cdbe5cdf8")
+	)
+	(segment
+		(start 167.225 95.525)
+		(end 169.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "dcaff561-e847-40cc-972b-8758cf8a3da9")
+	)
+	(segment
+		(start 167.225 148.375)
+		(end 167.225 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "ea889b58-fae2-40b6-a71d-3351e9059e04")
+	)
+	(segment
+		(start 67.615 88.915)
+		(end 67.65 88.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 79)
+		(uuid "f4188a85-79b3-4b24-962f-6fe56969da77")
+	)
+	(segment
+		(start 189.3 133.688478)
+		(end 187.225 135.763478)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "20a585f1-96e4-423e-b796-d3d2f6b60c02")
+	)
+	(segment
+		(start 187.225 110.375)
+		(end 189.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "369440ab-4f72-488e-a5bd-249f126d0899")
+	)
+	(segment
+		(start 189.3 131.45)
+		(end 189.3 133.688478)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "49a0f473-bba6-4aff-b96a-1bad9867e3e3")
+	)
+	(segment
+		(start 189.3 93.45)
+		(end 187.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "5d39f974-0402-434b-b611-9bc772d5d7c4")
+	)
+	(segment
+		(start 72.7 88.55)
+		(end 189.3 88.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "7034d63f-c1bf-491f-946c-89f076ee4cfe")
+	)
+	(segment
+		(start 189.3 150.45)
+		(end 186.700001 153.049999)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "739cf907-3daa-4103-974b-89bd120cf7e3")
+	)
+	(segment
+		(start 189.3 112.45)
+		(end 187.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "7c2b5f5e-de07-4c8c-afa8-54d97a7222e0")
+	)
+	(segment
+		(start 186.700001 168.350001)
+		(end 187.8 169.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "82afd8b6-b36a-40cc-be2b-7e52ca3d2216")
+	)
+	(segment
+		(start 72.695 88.545)
+		(end 72.7 88.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "9008373c-1b0d-4421-b9e7-1e796089329a")
+	)
+	(segment
+		(start 189.3 88.55)
+		(end 189.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "a2ee6f41-6da1-4680-9718-3b513a73250f")
+	)
+	(segment
+		(start 187.225 129.375)
+		(end 189.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "ac00f197-a325-4b34-9f15-8c4d12f957bc")
+	)
+	(segment
+		(start 187.225 135.763478)
+		(end 187.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "b02f39b4-653d-4ae8-bccd-8882373001ec")
+	)
+	(segment
+		(start 187.225 95.525)
+		(end 187.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "b2df9fa3-2ddd-4249-8826-d580de85b54b")
+	)
+	(segment
+		(start 186.700001 153.049999)
+		(end 186.700001 168.350001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "d4aea920-cd8c-49b8-a82b-6f825b3bf921")
+	)
+	(segment
+		(start 72.695 83.04)
+		(end 72.695 88.545)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "dc346f23-8055-4c6a-a2df-ec99c89fb205")
+	)
+	(segment
+		(start 187.225 114.525)
+		(end 187.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "f2b12fd1-27c8-43ee-b37e-415caafe8d92")
+	)
+	(segment
+		(start 187.225 148.375)
+		(end 189.3 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 80)
+		(uuid "f440483d-9c35-4a8d-854e-a3ac5d2db88e")
+	)
+	(segment
+		(start 207.225 114.525)
+		(end 209.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "03f1e893-cf22-4f16-96a5-de5a61f785f1")
+	)
+	(segment
+		(start 207.225 129.375)
+		(end 207.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "0f298f5e-3cbc-407e-94ca-de5ef2e6eade")
+	)
+	(segment
+		(start 209.3 88.15)
+		(end 209.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "32ad8ec2-45b8-4af1-a934-2d7ce62f9a7d")
+	)
+	(segment
+		(start 209.3 150.45)
+		(end 207.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "411deae7-9bad-4338-b8ce-21f005fe54cc")
+	)
+	(segment
+		(start 207.225 133.525)
+		(end 209.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "7cfa51e9-3a60-45c5-917e-44372763adfd")
+	)
+	(segment
+		(start 209.3 112.45)
+		(end 207.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "83010725-5f34-4a91-bd2b-392388741610")
+	)
+	(segment
+		(start 75.235 88.135)
+		(end 75.25 88.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "8a573e4a-dfc9-481f-93bd-a9011fa18d14")
+	)
+	(segment
+		(start 207.225 148.375)
+		(end 207.225 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "9688269a-032c-477f-9151-70a5a59b2d98")
+	)
+	(segment
+		(start 75.25 88.15)
+		(end 209.3 88.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "ad6dbf16-db13-42fb-b7cc-46924dfa7de8")
+	)
+	(segment
+		(start 207.225 110.375)
+		(end 207.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "b2380f2e-6cda-42e0-bfe1-d696959c70db")
+	)
+	(segment
+		(start 209.3 131.45)
+		(end 207.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "d4db6e2b-9b92-4ee9-b7b9-f642519ef39d")
+	)
+	(segment
+		(start 75.235 83.04)
+		(end 75.235 88.135)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "e6e1c99b-ce6f-44fa-beae-d8ca40a70ea2")
+	)
+	(segment
+		(start 207.225 95.525)
+		(end 209.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 81)
+		(uuid "ee9194e1-b93a-45e9-a6e7-a08604b12a9f")
+	)
+	(segment
+		(start 229.3 93.45)
+		(end 227.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "0ad096e9-99bc-4a4a-941b-476056082763")
+	)
+	(segment
+		(start 227.225 110.375)
+		(end 229.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "0ff18895-1e1e-4ec4-bfeb-366ab935197c")
+	)
+	(segment
+		(start 77.8 87.75)
+		(end 229.4 87.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "18994c91-3e42-45e5-826b-acec60321fad")
+	)
+	(segment
+		(start 229.4 87.75)
+		(end 229.4 93.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "194b8bf2-4f59-4aea-b80d-ac32e2a5b30c")
+	)
+	(segment
+		(start 229.4 93.35)
+		(end 229.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "2cec133a-ee25-4cc0-a731-f433c1837bba")
+	)
+	(segment
+		(start 77.775 83.04)
+		(end 77.775 87.725)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "473d03ff-b193-4571-bd1a-2f476cb4789c")
+	)
+	(segment
+		(start 229.3 131.45)
+		(end 227.225 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "4bc8f903-d939-4049-b1f3-22549897e55f")
+	)
+	(segment
+		(start 227.225 148.375)
+		(end 229.3 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "53b66a3d-d2ee-4a6e-8cc6-c6562b92a982")
+	)
+	(segment
+		(start 77.775 87.725)
+		(end 77.8 87.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "5b64e09a-5ef4-43dc-a198-173adc8bd3ce")
+	)
+	(segment
+		(start 227.225 114.525)
+		(end 227.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "67846c1c-8511-4e16-b5e9-f08c692b2411")
+	)
+	(segment
+		(start 227.225 133.525)
+		(end 227.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "764a525d-b1c1-4937-83fb-e78ca08e1821")
+	)
+	(segment
+		(start 227.225 95.525)
+		(end 227.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "775fe8cb-5927-4a2b-b47c-d6a6cdf2868e")
+	)
+	(segment
+		(start 229.3 112.45)
+		(end 227.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "d7f1c68f-15fc-4de8-8fd8-893a3bf5d13c")
+	)
+	(segment
+		(start 227.225 129.375)
+		(end 229.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 82)
+		(uuid "ed87ae2a-81a2-4374-88b9-be6717192a09")
+	)
+	(segment
+		(start 247.225 133.525)
+		(end 247.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "0c99b5f6-d206-465e-8db4-7498e32e561c")
+	)
+	(segment
+		(start 80.35 87.35)
+		(end 249.3 87.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "116951cf-07df-4450-9938-5229566b65f2")
+	)
+	(segment
+		(start 247.225 110.375)
+		(end 249.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "1fd91ca3-737f-482f-8ab5-87bb128959be")
+	)
+	(segment
+		(start 80.315 83.04)
+		(end 80.315 87.315)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "2094c840-6d4f-4252-b569-af0f20f67b31")
+	)
+	(segment
+		(start 249.3 131.45)
+		(end 247.225 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "2956f0ae-7adb-4bfb-9f04-a9ba02913163")
+	)
+	(segment
+		(start 247.225 114.525)
+		(end 247.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "3cb9ea5f-8c76-49b2-b361-5679be257934")
+	)
+	(segment
+		(start 247.225 95.525)
+		(end 247.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "5420c877-83f9-4106-950a-d547ee736647")
+	)
+	(segment
+		(start 249.3 112.45)
+		(end 247.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "602821a8-c029-492c-b740-76552f5a37eb")
+	)
+	(segment
+		(start 247.225 148.375)
+		(end 249.3 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "7ff97742-a351-44fd-973a-e2e88c85aad7")
+	)
+	(segment
+		(start 80.315 87.315)
+		(end 80.35 87.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "8cc31533-ae25-4084-adfd-6e5cfcb4881d")
+	)
+	(segment
+		(start 249.3 87.35)
+		(end 249.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "a4668e17-c7e4-4777-878f-72b8ad1e1ba5")
+	)
+	(segment
+		(start 247.225 129.375)
+		(end 249.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "a48fb861-7a1c-4d43-a70d-461a4af7826b")
+	)
+	(segment
+		(start 249.3 93.45)
+		(end 247.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 83)
+		(uuid "af396a68-2706-4d10-b60c-89caa8db6151")
+	)
+	(segment
+		(start 267.225 114.525)
+		(end 267.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "0736c672-9596-476f-b804-1d5e3b399e66")
+	)
+	(segment
+		(start 269.3 150.45)
+		(end 269.3 152.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "0afb782e-8171-4cd0-9702-f05f6e2c7f32")
+	)
+	(segment
+		(start 269.3 112.45)
+		(end 267.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "32d4a4d2-57a2-48dd-9dd9-d0e39f8e54b6")
+	)
+	(segment
+		(start 267.225 95.525)
+		(end 267.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "3d74a387-e9f6-485a-8a81-fd390b5c8d53")
+	)
+	(segment
+		(start 267.225 110.375)
+		(end 269.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "54202cdc-4a43-4221-bf36-f5aba1d56a26")
+	)
+	(segment
+		(start 267.225 135.763478)
+		(end 267.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "5661885d-9009-4c1a-8fcf-a62b46def046")
+	)
+	(segment
+		(start 85.395 86.945)
+		(end 85.4 86.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "5d7ad19b-fda9-4db8-a70b-1664623e767d")
+	)
+	(segment
+		(start 269.3 133.688478)
+		(end 267.225 135.763478)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "68c6862f-ed9f-4e9c-a96e-4fc512ab4ee8")
+	)
+	(segment
+		(start 85.4 86.95)
+		(end 269.3 86.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "68ed8f02-3014-4b8f-a72a-ef94306ede26")
+	)
+	(segment
+		(start 267.225 129.375)
+		(end 269.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "70e581fb-01a5-4634-a365-2c0c646e2b45")
+	)
+	(segment
+		(start 267.225 148.375)
+		(end 269.3 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "72d58187-94c2-454c-81e7-6c7ffc7b5d43")
+	)
+	(segment
+		(start 269.3 86.95)
+		(end 269.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "75e2fdef-c44e-4929-aea5-3537e0a6e3dc")
+	)
+	(segment
+		(start 269.3 131.45)
+		(end 269.3 133.688478)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "775bd6c5-cce9-4153-bea2-0a6662187318")
+	)
+	(segment
+		(start 85.395 83.04)
+		(end 85.395 86.945)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "945a41e9-6daf-4fcf-99ff-e594659b946f")
+	)
+	(segment
+		(start 269.3 93.45)
+		(end 267.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "dc0921fe-e903-4556-9194-c32a5bdab24c")
+	)
+	(segment
+		(start 269.3 152.95)
+		(end 252.8 169.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "e516d3ac-bd6d-4f54-8cb7-2ed6dde1b189")
+	)
+	(segment
+		(start 289.25 86.6)
+		(end 289.25 93.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "1d81442f-b380-4458-92f0-e23916a29bf2")
+	)
+	(segment
+		(start 287.225 95.525)
+		(end 287.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "246eee76-5c1a-4fe1-b3aa-bf58f56ef7b3")
+	)
+	(segment
+		(start 287.225 148.375)
+		(end 289.3 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "2b37b4a7-682b-4712-9b27-10459374f68a")
+	)
+	(segment
+		(start 287.225 133.525)
+		(end 287.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "57c4ebc3-d725-4cef-a828-3274a82032ed")
+	)
+	(segment
+		(start 287.225 110.375)
+		(end 289.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "7b6066d9-3069-4054-894b-ec37f6ab15c2")
+	)
+	(segment
+		(start 287.225 116.763478)
+		(end 287.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "8588e1b1-2b3d-4b50-9bbb-b513da93f8d2")
+	)
+	(segment
+		(start 289.2 86.55)
+		(end 289.25 86.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "8662feee-f8b0-4390-b089-26de22425270")
+	)
+	(segment
+		(start 289.25 93.4)
+		(end 289.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "8e7da989-82ed-4e90-816a-43e5b542a6a9")
+	)
+	(segment
+		(start 87.95 86.55)
+		(end 289.2 86.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "955268fe-63ca-4056-b35f-cec0eace5b51")
+	)
+	(segment
+		(start 289.3 131.45)
+		(end 287.225 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "a065dc77-dc68-49bd-b610-6327ed13eded")
+	)
+	(segment
+		(start 87.935 86.535)
+		(end 87.95 86.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "a2319060-b317-4ca5-b6f9-a4125ad27bb4")
+	)
+	(segment
+		(start 289.3 150.45)
+		(end 287.225 152.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "a3c99e59-5cac-4bf6-89c3-b4b68bf2ed37")
+	)
+	(segment
+		(start 287.225 152.525)
+		(end 287.225 159.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "ae2d032b-509f-493c-8053-28e8eb796d91")
+	)
+	(segment
+		(start 287.225 129.375)
+		(end 289.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "bde934fd-4383-4f6c-b2dc-c1b9eeada948")
+	)
+	(segment
+		(start 287.225 159.525)
+		(end 277.3 169.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "c35b4e65-8cfd-4cb2-8880-3c41b042482e")
+	)
+	(segment
+		(start 289.3 114.688478)
+		(end 287.225 116.763478)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "c5c5b77d-3377-48ee-9d48-748a74d6e998")
+	)
+	(segment
+		(start 289.3 112.45)
+		(end 289.3 114.688478)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "c7c27e23-d954-4bf3-b1ad-be433860e61d")
+	)
+	(segment
+		(start 87.935 83.04)
+		(end 87.935 86.535)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "dea9948c-c746-4179-9578-69fc4cbefd97")
+	)
+	(segment
+		(start 289.3 93.45)
+		(end 287.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 85)
+		(uuid "e43388e0-7340-4f90-bde4-7fcfa9f9feb8")
+	)
+	(segment
+		(start 309.3 86.15)
+		(end 309.3 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "0348a554-6c88-4ea8-b24e-762ba6d4ab45")
+	)
+	(segment
+		(start 90.5 86.15)
+		(end 309.3 86.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "0a26bca1-4a86-416f-9422-cb2064ea4a82")
+	)
+	(segment
+		(start 307.225 114.525)
+		(end 307.225 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "15080b2f-e977-43b4-a336-d06dace8e591")
+	)
+	(segment
+		(start 299.4 167.35)
+		(end 297.3 169.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "2ac8acaa-fd5e-4b40-b2cd-0ec18a1f3f4a")
+	)
+	(segment
+		(start 307.225 129.375)
+		(end 309.3 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "2eb7d592-1aaf-453d-b980-a3ecb2d637b8")
+	)
+	(segment
+		(start 307.225 95.525)
+		(end 307.225 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "6506a321-a7d1-42fd-b7d9-86fedc2dcea8")
+	)
+	(segment
+		(start 90.475 83.04)
+		(end 90.475 86.125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "6add8716-4e95-4220-817b-8095d9550283")
+	)
+	(segment
+		(start 307.225 133.525)
+		(end 307.225 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "8587d6c6-032b-444e-b8fa-092321c9df5c")
+	)
+	(segment
+		(start 299.4 158.794366)
+		(end 299.4 167.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "991ce108-9d5c-48cf-81fd-3b8cf3689d4f")
+	)
+	(segment
+		(start 309.3 131.45)
+		(end 307.225 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "9b6ab0ac-a1da-4129-a4dc-73990953ac20")
+	)
+	(segment
+		(start 90.475 86.125)
+		(end 90.5 86.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "9d7c7bf9-31f3-4120-84bc-8f2e0b62dfd9")
+	)
+	(segment
+		(start 307.744366 150.45)
+		(end 299.4 158.794366)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "cc83b909-6dcb-4f05-b8d4-50a6bfaa2ff8")
+	)
+	(segment
+		(start 307.225 110.375)
+		(end 309.3 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "d18d8025-12a9-4029-970a-7bebd12e5485")
+	)
+	(segment
+		(start 307.225 148.375)
+		(end 309.3 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "d9f4d7ab-519a-4bc0-b4a9-445be394dff0")
+	)
+	(segment
+		(start 309.3 112.45)
+		(end 307.225 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "da2be970-3cfb-40f8-952c-e3a7b9c6029c")
+	)
+	(segment
+		(start 309.3 93.45)
+		(end 307.225 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "f9fd009d-2c23-4845-bcb5-4aae1f1ac78f")
+	)
+	(segment
+		(start 309.3 150.45)
+		(end 307.744366 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 86)
+		(uuid "fa919bdc-ff4f-434f-9897-78d2bd6981bc")
+	)
+	(segment
+		(start 333.8 93.45)
+		(end 331.725 95.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "025a9b6d-99f3-4edb-9661-885070b16940")
+	)
+	(segment
+		(start 331.725 129.375)
+		(end 333.8 131.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "18356b0c-ccb0-49ba-8f2d-8d380503c421")
+	)
+	(segment
+		(start 333.8 152.95)
+		(end 317.3 169.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "1df67092-3206-43c6-885e-48f83252dbd5")
+	)
+	(segment
+		(start 333.8 112.45)
+		(end 331.725 114.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "3ff96315-fa9b-4e83-a6ba-59a1b652c6a8")
+	)
+	(segment
+		(start 93.015 83.04)
+		(end 93.015 81.885)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "48d01e0d-b65e-40ac-b432-0f8bd482201b")
+	)
+	(segment
+		(start 103.05 85.75)
+		(end 333.8 85.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "58d401ae-e75d-4ddd-9d2a-bd733b0c45e0")
+	)
+	(segment
+		(start 103.05 81.85)
+		(end 103.05 85.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "76a6c884-42c8-446a-b75b-615839a6b73e")
+	)
+	(segment
+		(start 331.725 110.375)
+		(end 333.8 112.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "85e6f47a-fc28-49c7-ad3e-443847d345a1")
+	)
+	(segment
+		(start 331.725 114.525)
+		(end 331.725 129.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "8fe7bdab-b8b3-443e-a131-d3dcd59f9fe4")
+	)
+	(segment
+		(start 333.8 150.45)
+		(end 333.8 152.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "989a55ab-963e-421a-967b-f8bcf8aae322")
+	)
+	(segment
+		(start 333.8 131.45)
+		(end 331.725 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "b3c85e84-0a6a-4353-aa56-5b9769caea46")
+	)
+	(segment
+		(start 93.05 81.85)
+		(end 103.05 81.85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "b46344e5-4c2f-4b84-8a7c-b5d481a708c9")
+	)
+	(segment
+		(start 331.725 148.375)
+		(end 333.8 150.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "bfeb5f6c-fbd1-49b9-b1f1-d130983f450a")
+	)
+	(segment
+		(start 331.725 133.525)
+		(end 331.725 148.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "ee349ee7-0c2c-4cae-8340-1088b2b8fb16")
+	)
+	(segment
+		(start 93.015 81.885)
+		(end 93.05 81.85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "f93d0fc1-a45d-4a08-b35d-ed7df470a408")
+	)
+	(segment
+		(start 333.8 85.75)
+		(end 333.8 93.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "fc685db1-8a82-4081-ad60-6aa52d902f57")
+	)
+	(segment
+		(start 331.725 95.525)
+		(end 331.725 110.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 87)
+		(uuid "fe7f3028-002d-45c0-9948-34d163a6a3d3")
 	)
 )
